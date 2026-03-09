@@ -303,13 +303,13 @@ body {
 }
 
 .resume-btn {
-    color: white;
+    color: var(--primary);
     border-color: rgba(255, 255, 255, 0.3);
 }
 
 .resume-btn:hover {
-    border-color: var(--primary);
-    color: var(--primary);
+    background: rgba(0, 255, 156, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 156, 0.2);
 }
 
 .view-btn:hover, .send-btn:hover {
