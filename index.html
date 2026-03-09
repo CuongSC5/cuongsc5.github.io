@@ -4,107 +4,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CuongSC Portfolio</title>
+
+<title>Cuong Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  
+
+<!-- NAVBAR -->
+
 <header>
-  
+
 <nav class="navbar">
-    <h2 class="logo">CUONG</h2>
 
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  
-<div class="hero">
+<h2 class="logo">CUONG</h2>
 
-<img src="avatar.png" class="avatar">
+<ul class="nav-links">
 
-<h1>Hoang Quoc Cuong</h1>
+<li><a href="#about">About</a></li>
 
-<p>Software Engineer</p>
+<li><a href="#projects">Projects</a></li>
 
-</div>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
 
 </header>
 
 
-<section class="about">
+<!-- ABOUT -->
 
-<h2>About Me</h2>
+<section id="about" class="section">
+
+<h1>Hello, I'm Cuong</h1>
 
 <p>
 
-My name is Hoang Quoc Cuong, and I am a software engineer with a strong enthusiasm for technology and creative problem-solving.
-
-I value clear communication and collaboration, and I enjoy working in environments where ideas can be shared freely and developed together.
-
-Being able to cooperate smoothly with others while continuously learning from different perspectives is an important part of how I grow as a developer.
-
-<br><br>
-
-Most of my programming experience comes from academic projects completed throughout my coursework.
-
-I have worked on projects such as Android applications, software systems, and full-stack web applications.
-
-<br><br>
-
-I have experience working with multiple programming languages including Java, C++, C#, HTML, CSS, and JavaScript.
-
-Through these projects I continue strengthening my technical foundation and expanding my understanding of software engineering.
-
-<br><br>
-
-My long-term goal is to build a creative and engaging game that combines technology, imagination, and thoughtful design.
-
-Outside of programming, I also enjoy music, especially listening to and writing rap lyrics, which gives me another creative outlet.
+I am passionate about technology and software development.  
+I enjoy building applications, exploring AI systems, and creating modern web experiences.
 
 </p>
 
 </section>
 
-<section id="projects">
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
 
 <h2 class="section-title">Projects</h2>
 
 <div class="project-container">
 
-<div class="project-card">
 
-<h3>Food Company Project</h3>
+<!-- PROJECT 1 -->
 
-<p>Website for food company management system.</p>
+<div class="card">
+
+<h3>Food Company Management System</h3>
+
+<p>
+
+A web-based system designed to help manage food company operations such as products, orders, and business workflows.
+
+</p>
+
+<ul>
+
+<li>Product management</li>
+<li>Order tracking</li>
+<li>Database integration</li>
+<li>Admin dashboard</li>
+
+</ul>
+
+<div class="tags">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+
+</div>
 
 <a href="https://cuongsc5.github.io/FoodCompanyProjectManagementSystem/" target="_blank">
-<button>View Project</button>
+
+<button class="view-btn">View Project</button>
+
 </a>
 
 </div>
 
 
-<div class="project-card">
+<!-- PROJECT 2 -->
 
-<h3>Portfolio Website</h3>
+<div class="card">
 
-<p>My personal cyber style portfolio website.</p>
+<h3>Multimedia Social Mobile App</h3>
 
-<a href="#" target="_blank">
-<button>View Project</button>
-</a>
+<p>
+
+A mobile application inspired by platforms like YouTube and Instagram, allowing users to listen to music, send messages, capture photos, and manage a personal media library.
+
+</p>
+
+<ul>
+
+<li>Music streaming</li>
+<li>Real-time messaging</li>
+<li>Email integration</li>
+<li>Camera and photo storage</li>
+
+</ul>
+
+<div class="tags">
+
+<span>Android</span>
+<span>Java</span>
+<span>Firebase</span>
 
 </div>
 
 </div>
 
-</section>
+
+<!-- PROJECT 3 -->
+
+<div class="card">
+
+<h3>AI Legal & Traffic Law Assistant</h3>
+
+<p>
+
+An AI system that allows users to ask legal questions about traffic situations and determine responsibility based on traffic laws.
+
+</p>
+
+<ul>
+
+<li>Legal document retrieval</li>
+<li>Traffic law question answering</li>
+<li>Situation analysis</li>
+<li>AI-based reasoning</li>
+
+</ul>
 
 <div class="tags">
 
@@ -116,58 +162,19 @@ Outside of programming, I also enjoy music, especially listening to and writing 
 
 </div>
 
-</div>
-
-</section>
-
-
-<section class="skills">
-
-<h2>Technical Skills</h2>
-
-<div class="skill">
-
-<span>HTML/CSS</span>
-<div class="bar"><div style="width:90%"></div></div>
-
-</div>
-
-<div class="skill">
-
-<span>JavaScript</span>
-<div class="bar"><div style="width:85%"></div></div>
-
-</div>
-
-<div class="skill">
-
-<span>Java</span>
-<div class="bar"><div style="width:85%"></div></div>
-
-</div>
-
-<div class="skill">
-
-<span>C#</span>
-<div class="bar"><div style="width:75%"></div></div>
-
-</div>
-
-<div class="skill">
-
-<span>Python</span>
-<div class="bar"><div style="width:70%"></div></div>
 
 </div>
 
 </section>
 
 
-<section id="contact">
+<!-- CONTACT -->
+
+<section id="contact" class="section">
 
 <h2 class="section-title">Get In Touch</h2>
 
-<div class="contact-container">
+<div class="contact-box">
 
 <input type="text" placeholder="Your Name">
 
@@ -175,18 +182,12 @@ Outside of programming, I also enjoy music, especially listening to and writing 
 
 <textarea placeholder="Your Message"></textarea>
 
-<button>Send Message</button>
+<button class="send-btn">Send Message</button>
 
 </div>
 
 </section>
 
-
-<footer>
-
-<p>© 2026 Hoang Quoc Cuong</p>
-
-</footer>
 
 </body>
 
