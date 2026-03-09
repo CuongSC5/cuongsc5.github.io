@@ -277,13 +277,39 @@ body {
     display: inline-block;
 }
 
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Khoảng cách giữa các nút */
+    flex-wrap: wrap; /* Tự động xuống dòng nếu màn hình nhỏ */
+}
+
 .outline-btn {
     border: 1px solid var(--primary);
     color: var(--primary);
     padding: 12px 25px;
     border-radius: 6px;
     text-decoration: none;
-    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.outline-btn:hover {
+    background: rgba(0, 255, 156, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 156, 0.2);
+}
+
+.resume-btn {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.resume-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
 }
 
 .view-btn:hover, .send-btn:hover {
@@ -305,4 +331,16 @@ footer {
     .nav-links { display: none; } /* Có thể làm thêm toggle menu sau */
     .hero h1 { font-size: 2.5rem; }
     .section { padding: 60px 20px; }
+}
+
+/* Mobile: Nếu màn hình quá nhỏ thì dàn hàng dọc */
+@media (max-width: 480px) {
+    .hero-btns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-btns a {
+        width: 200px;
+        justify-content: center;
+    }
 }
