@@ -7,7 +7,7 @@ I'm a **Software Engineer** with a strong enthusiasm for technology and creative
 * 🎓 Software Engineering student with experience in academic projects (Android, Systems, Full-stack).
 * 💡 Interested in building robust applications and exploring new technologies.
 * ✍️ Passionate about music and writing rap lyrics (it keeps my creativity flowing!).
-* 📄 [Click here to view my Portfolio](https://cuongsc5.github.io/FoodCompanyProjectManagementSystem/)
+* 📄 [Click here to view my Portfolio](https://cuongsc5.github.io/)
 
 ---
 
@@ -32,7 +32,7 @@ I'm a **Software Engineer** with a strong enthusiasm for technology and creative
 
 ### 💻 Highlighted Projects
 
-#### 🍎 [Food Management System](https://cuongsc5.github.io/FoodCompanyProjectManagementSystem/)
+#### 🍎 [Food Management System](https://cuongsc5.github.io/)
 * Web-based project management for food companies to track tasks and workflows.
 * **Tech:** Spring Boot, MySQL, JavaScript.
 * **Features:** Task tracking, Dashboards, Team collaboration tools.
