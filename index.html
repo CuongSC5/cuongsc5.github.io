@@ -1,219 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CuongSC Portfolio</title>
 
-<title>Cuong SC Portfolio</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial;
-}
-
-body{
-background:#0f172a;
-color:white;
-line-height:1.6;
-}
-
-header{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-}
-
-header h1{
-font-size:60px;
-margin-bottom:10px;
-}
-
-header p{
-font-size:22px;
-color:#94a3b8;
-}
-
-nav{
-position:fixed;
-top:0;
-width:100%;
-background:#020617;
-padding:15px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:0 20px;
-text-decoration:none;
-font-size:16px;
-}
-
-section{
-padding:80px 10%;
-}
-
-h2{
-margin-bottom:30px;
-font-size:32px;
-}
-
-.about{
-max-width:700px;
-}
-
-.projects{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#1e293b;
-padding:25px;
-border-radius:10px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-background:#334155;
-}
-
-.skills span{
-display:inline-block;
-background:#1e293b;
-padding:10px 15px;
-margin:5px;
-border-radius:6px;
-}
-
-.contact{
-text-align:center;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
-margin-top:40px;
-}
-
-button{
-margin-top:20px;
-padding:12px 25px;
-border:none;
-background:#38bdf8;
-color:black;
-font-weight:bold;
-border-radius:6px;
-cursor:pointer;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
-<body>
 
-<nav>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#skills">Skills</a>
-<a href="#contact">Contact</a>
-</nav>
+<body>
 
 <header>
 
-<h1>Cuong SC</h1>
+<div class="hero">
 
-<p>Student • Developer • Portfolio</p>
+<img src="avatar.png" class="avatar">
 
-<button onclick="scrollToSection()">View My Work</button>
+<h1>Hoang Quoc Cuong</h1>
+
+<p>Software Engineer</p>
+
+</div>
 
 </header>
 
-<section id="about">
+
+<section class="about">
 
 <h2>About Me</h2>
 
-<p class="about">
-Write information about yourself here.  
-Your major, skills, experience, or goals.
+<p>
+
+My name is Hoang Quoc Cuong, and I am a software engineer with a strong enthusiasm for technology and creative problem-solving.
+
+I value clear communication and collaboration, and I enjoy working in environments where ideas can be shared freely and developed together.
+
+Being able to cooperate smoothly with others while continuously learning from different perspectives is an important part of how I grow as a developer.
+
+<br><br>
+
+Most of my programming experience comes from academic projects completed throughout my coursework.
+
+I have worked on projects such as Android applications, software systems, and full-stack web applications.
+
+<br><br>
+
+I have experience working with multiple programming languages including Java, C++, C#, HTML, CSS, and JavaScript.
+
+Through these projects I continue strengthening my technical foundation and expanding my understanding of software engineering.
+
+<br><br>
+
+My long-term goal is to build a creative and engaging game that combines technology, imagination, and thoughtful design.
+
+Outside of programming, I also enjoy music, especially listening to and writing rap lyrics, which gives me another creative outlet.
+
 </p>
 
 </section>
 
-<section id="projects">
+<section class="projects">
 
 <h2>Projects</h2>
 
-<div class="projects">
+<div class="project-grid">
 
 <div class="card">
-<h3>Project 1</h3>
-<p>Description of project.</p>
-</div>
 
-<div class="card">
-<h3>Project 2</h3>
-<p>Description of project.</p>
-</div>
+<h3>Food Company Project Management System</h3>
 
-<div class="card">
-<h3>Project 3</h3>
-<p>Description of project.</p>
-</div>
+<p>
 
-</div>
+A web-based project management system designed for a food company to track tasks, manage workflows, and monitor project progress across teams.
 
-</section>
+</p>
 
-<section id="skills">
+<ul>
 
-<h2>Skills</h2>
+<li>Task assignment and progress tracking</li>
 
-<div class="skills">
+<li>Project dashboard and reports</li>
 
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
+<li>Team collaboration tools</li>
+
+<li>Workflow management</li>
+
+</ul>
+
+<div class="tags">
+
 <span>Java</span>
+<span>Spring Boot</span>
+<span>MySQL</span>
+<span>JavaScript</span>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>Multimedia Social Mobile App</h3>
+
+<p>
+
+A mobile application inspired by platforms like YouTube and Instagram, allowing users to listen to music, send messages, capture photos, and manage a personal media library.
+
+</p>
+
+<ul>
+
+<li>Music streaming</li>
+
+<li>Real-time messaging</li>
+
+<li>Email integration</li>
+
+<li>Camera and photo storage</li>
+
+</ul>
+
+<div class="tags">
+
 <span>Android</span>
+<span>Java</span>
+<span>Firebase</span>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>AI Legal & Traffic Law Assistant</h3>
+
+<p>
+
+An AI system that allows users to ask legal questions about traffic situations and determine responsibility based on traffic laws.
+
+</p>
+
+<ul>
+
+<li>Legal document retrieval</li>
+
+<li>Traffic law question answering</li>
+
+<li>Situation analysis</li>
+
+<li>AI-based reasoning</li>
+
+</ul>
+
+<div class="tags">
+
+<span>Python</span>
+<span>RAG</span>
+<span>Embeddings</span>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section id="contact" class="contact">
 
-<h2>Contact</h2>
+<section class="skills">
 
-<p>Email: your@email.com</p>
+<h2>Technical Skills</h2>
 
-<p>GitHub: github.com/cuongsc5</p>
+<div class="skill">
+
+<span>HTML/CSS</span>
+<div class="bar"><div style="width:90%"></div></div>
+
+</div>
+
+<div class="skill">
+
+<span>JavaScript</span>
+<div class="bar"><div style="width:85%"></div></div>
+
+</div>
+
+<div class="skill">
+
+<span>Java</span>
+<div class="bar"><div style="width:85%"></div></div>
+
+</div>
+
+<div class="skill">
+
+<span>C#</span>
+<div class="bar"><div style="width:75%"></div></div>
+
+</div>
+
+<div class="skill">
+
+<span>Python</span>
+<div class="bar"><div style="width:70%"></div></div>
+
+</div>
 
 </section>
+
+
+<section class="contact">
+
+<h2>Get In Touch</h2>
+
+<form action="https://formspree.io/f/yourid" method="POST">
+
+<input type="text" name="name" placeholder="Your name">
+
+<input type="email" name="email" placeholder="Your email">
+
+<textarea name="message" placeholder="Your message"></textarea>
+
+<button type="submit">Send Email</button>
+
+</form>
+
+</section>
+
 
 <footer>
 
-<p>© 2026 Cuong SC</p>
+<p>© 2026 Hoang Quoc Cuong</p>
 
 </footer>
 
-<script>
-
-function scrollToSection(){
-document.getElementById("projects").scrollIntoView({behavior:"smooth"});
-}
-
-</script>
-
 </body>
+
 </html>
